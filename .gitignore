@@ -1,4 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos
+.venv/
+venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Datos locales / descargados
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
 *.zip
-Datos/
-.ipynb*
-.virtual_documents/
+
+# Credenciales
+.env
+.env.*
+*.key
+*.pem
